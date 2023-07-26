@@ -1,0 +1,75 @@
+@media(max-width:500px){
+
+*{
+    overflow-x: hidden;
+}
+
+.img0{
+    display: none;    
+}
+.input1,.bnm1,.bnm{
+    display: none;
+}
+.vb{
+    width: 100%;
+}
+.img2{
+    height: 150px;
+}
+.first{
+    height: 250px;
+}
+.third{
+    /* background-color: aqua; */
+    height: 1300px;
+    display: flex;
+
+}
+.three,.three1{
+    /* background-color: blueviolet; */
+    /* height: 200px; */
+    display: flex;
+    /* flex-wrap: wrap; */
+    flex-direction: column;
+    margin: auto;
+    display: grid;
+    grid-template-columns: repeat(1,1fr);
+    grid-template-rows: auto;
+    height: 1300px;
+    overflow-y: hidden;
+}
+.qq{
+    height: 100%;
+    width:100%;
+    /* background-color: brown; */
+}
+.jkl{
+    width: 50px;
+    object-fit: cover;
+}
+/* .seperatediv{
+    height: 100px;
+    width: 100%;
+}
+.seperatediv2{
+    width: 100%;
+} */
+.asd{
+    width:50px;
+    object-fit: cover;
+}
+/* .seperateddiv3{
+        height: 150px;
+        width: 100%;
+        overflow-y: hidden;
+
+}
+.eperateddiv4{
+    height: 50px;
+    width: 100%;
+    overflow-y: hidden;
+} */
+
+
+
+}
